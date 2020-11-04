@@ -15,6 +15,8 @@ here
 
 Use assignment_test.py to test your functions
 """
+
+"""
 import tkinter as tk 
 from tkinter import *
 
@@ -86,7 +88,7 @@ e1=tk.Entry(win,width=40)
 b1 = tk.Button(win, text="Convert to Binary", command=get_binary)
 b2 = tk.Button(win, text="Convert to Decimal", command=get_decimal)
 
-
+'''
 cb1 = Checkbutton(win, variable = state, command=updateCheck)
 cb2 = Checkbutton(win, variable = state, command=updateCheck)
 cb3 = Checkbutton(win, variable = state, command=updateCheck)
@@ -95,19 +97,12 @@ cb5 = Checkbutton(win, variable = state, command=updateCheck)
 cb6 = Checkbutton(win, variable = state, command=updateCheck)
 cb7 = Checkbutton(win, variable = state, command=updateCheck)
 cb8 = Checkbutton(win, variable = state, command=updateCheck)
+'''
 
-b1.grid(row=1,column=1)
-b2.grid(row=1,column=2)
-b3.grid(row=1,column=3)
-b4.grid(row=1,column=4)
-b5.grid(row=1,column=5)
-b6.grid(row=1,column=6)
-b7.grid(row=1,column=7)
-b8.grid(row=1,column=8)
-
-e1.grid(row=3,column=1)
-b1.grid(row=4,column=1)
-b2.grid(row=4,column=2)
+e1.grid(row=1,column=1)
+b1.grid(row=2,column=1)
+b2.grid(row=2,column=2)
 
 
 win.mainloop()
+"""
