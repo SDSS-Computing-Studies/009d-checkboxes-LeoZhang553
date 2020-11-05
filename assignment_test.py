@@ -10,4 +10,7 @@ def test2():
   test = task1.decimal_to_binary( 50 )
   assert test == (0,0,1,1,0,0,1,0)
 
+  test1()
+  test2()
+
 
